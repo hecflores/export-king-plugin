@@ -1,5 +1,4 @@
 # build artifacts
-export-king-plugin.sketchplugin
 
 # npm
 node_modules
