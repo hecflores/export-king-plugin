@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Export Xaml",
+      "identifier": "exportXaml",
+      "shortcut": "ctrl shift x",
+      "handler": "exportXaml",
+      "script": "__exports.js"
+    }
+  ],
+  "menu": {
+    "title": "Export King",
+    "items": [
+      "exportXaml"
+    ]
+  },
+  "version": "1.1.0",
+  "description": "A Sketch Plugin that provides exporting for any scenario",
+  "name": "export-king-plugin",
+  "identifier": "export-king-plugin",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/hecflores/export-king-plugin/master/.appcast.xml"
+}
